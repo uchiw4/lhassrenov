@@ -108,7 +108,7 @@ const Services = () => {
               <div>
                 <span className="block text-blue-200 text-sm">Téléphone</span>
                 <a href="tel:0651604595" className="text-white font-semibold hover:text-blue-100 transition-colors">
-                  06 51 60 45 95
+                07 61 18 90 56
                 </a>
               </div>
             </div>
