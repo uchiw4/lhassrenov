@@ -100,27 +100,7 @@ const Testimonials = () => {
                   className="object-contain"
                   priority
                 />
-          <Image
-            src="https://ext.same-assets.com/2610736688/977228281.jpeg"
-            alt="Partner"
-            width={120}
-            height={50}
-            className="grayscale object-contain"
-          />
-          <Image
-            src="https://ext.same-assets.com/2610736688/2912193207.jpeg"
-            alt="Partner"
-            width={120}
-            height={50}
-            className="grayscale object-contain"
-          />
-          <Image
-            src="https://ext.same-assets.com/2610736688/2721135817.jpeg"
-            alt="Partner"
-            width={120}
-            height={50}
-            className="grayscale object-contain"
-          />
+         
         </div>
       </div>
     </section>
