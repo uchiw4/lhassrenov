@@ -97,7 +97,7 @@ export default function AboutClient({
           </div>
 
           <div className="flex justify-center mb-16">
-            <Link href="/devis">
+            <Link href="/contact">
               <button className="bg-blue-600 hover:bg-blue-800 text-white font-medium px-6 py-3 rounded-lg shadow-md transition">
                 Demandez un devis
               </button>
