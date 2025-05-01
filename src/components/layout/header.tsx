@@ -46,7 +46,7 @@ const Header = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="bg-red-600 py-4 md:py-4">
+      <nav className="bg-blue-600 py-4 md:py-4">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-6 text-white">
@@ -90,7 +90,7 @@ const Header = () => {
 
           {/* Desktop Contact Info & CTA */}
           <div className="hidden md:flex items-center space-x-8 text-white text-sm">
-            <div className="flex items-center space-x-2 bg-white text-red-600 px-2 py-1 rounded">
+            <div className="flex items-center space-x-2 bg-white text-blue-600 px-2 py-1 rounded">
               <Phone className="h-4 w-4" />
               <span>07 61 18 90 56</span>
             </div>
@@ -103,7 +103,7 @@ const Header = () => {
               <span>Lundi – Dimanche / 7h30 – 18h</span>
             </div>
             <Link href="/contact">
-              <Button variant="default" className="bg-white text-red-600 hover:bg-gray-100">
+              <Button variant="default" className="bg-white text-blue-600 hover:bg-gray-100">
                 Obtenir un Devis
               </Button>
             </Link>
@@ -137,7 +137,7 @@ const Header = () => {
             key={link.path}
             href={link.path}
             onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm py-1 hover:text-red-600"
+            className="block text-sm py-1 hover:text-blue-600"
           >
             {link.name}
           </Link>
@@ -148,15 +148,15 @@ const Header = () => {
     {/* Bloc contact mobile */}
     <div className="mt-4 pt-4 border-t border-gray-200 space-y-3">
       <div className="flex items-center space-x-2">
-        <MapPin className="h-5 w-5 text-red-600" />
+        <MapPin className="h-5 w-5 text-blue-600" />
         <span className="text-sm">60, rue François 1er, Paris 75008</span>
       </div>
       <div className="flex items-center space-x-2">
-        <Phone className="h-5 w-5 text-red-600" />
+        <Phone className="h-5 w-5 text-blue-600" />
         <span className="text-sm">07 61 18 90 56</span>
       </div>
       <div className="flex items-center space-x-2">
-        <Clock className="h-5 w-5 text-red-600" />
+        <Clock className="h-5 w-5 text-blue-600" />
         <span className="text-sm">Lundi – Dimanche / 7h30 – 18h</span>
       </div>
     </div>
@@ -165,7 +165,7 @@ const Header = () => {
     <Link href="/contact">
       <Button
         variant="default"
-        className="w-full mt-4 bg-red-600 text-white hover:bg-red-700"
+        className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-700"
       >
         Obtenir un Devis
       </Button>
