@@ -16,7 +16,7 @@ export default function ContactPage() {
               Contact
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Demandez un devis pour vos travaux de rénovation à Paris
+              Demandez un devis pour vos travaux de rénovation en région parisienne
             </h1>
             <p className="text-gray-600">
               La rénovation partielle ou intégrale d'un bien immobilier à Paris est un projet qui ne s'improvise pas.
@@ -52,7 +52,7 @@ export default function ContactPage() {
                     icon="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     content={
                       <a href={`mailto:${"lhassrenov"}@${"gmail.com"}`} className="hover:text-blue-600 transition-colors">
-                        epservices@gmail.com
+                        infos.eps.paris@gmail.com
                       </a>
                     }
                   />
