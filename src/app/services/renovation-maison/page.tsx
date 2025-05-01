@@ -11,11 +11,11 @@ export default function RenovationMaison() {
       <main className="bg-white text-gray-900">
         <section className="py-20 px-4 md:px-10 max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">
-            Rénovation de maison à Paris
+            Rénovation de maison en Ile de France
           </h1>
 
           <p className="text-lg mb-6">
-            Vous envisagez de rénover votre maison à Paris ? Quels sont les coûts à prévoir, les étapes clés et les conseils pour réussir votre projet ? Cette page vous guide pas à pas.
+            Vous envisagez de rénover votre maison en Ile de France ? Quels sont les coûts à prévoir, les étapes clés et les conseils pour réussir votre projet ? Cette page vous guide pas à pas.
           </p>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
@@ -80,7 +80,7 @@ export default function RenovationMaison() {
             <li>Planifiez les travaux en fonction de votre calendrier et de vos contraintes</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4">Exemples de maisons rénovées par lhassrenov</h2>
+          <h2 className="text-2xl font-semibold mt-10 mb-4">Exemples de maisons rénovées par EP Services</h2>
           <div className="grid md:grid-cols-3 gap-4 mb-12">
             <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovation-maison1.jpeg" alt="Maison rénovée 1" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
             <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovation-maison2.jpeg" alt="Maison rénovée 2" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
@@ -89,7 +89,7 @@ export default function RenovationMaison() {
 
           <div className="bg-blue-900 text-white text-center py-12 px-4 rounded-xl">
             <h3 className="text-3xl font-bold mb-4">Vous avez un projet de rénovation ?</h3>
-            <p className="text-lg mb-6">Notre équipe vous accompagne dans toutes les étapes de la rénovation de votre maison à Paris.</p>
+            <p className="text-lg mb-6">Notre équipe vous accompagne dans toutes les étapes de la rénovation de votre maison en Ile de France.</p>
             <Link href="/contact">
               <Button className="bg-white text-blue-900 hover:bg-blue-100 font-semibold text-lg px-6 py-3">
                 Prendre rendez-vous

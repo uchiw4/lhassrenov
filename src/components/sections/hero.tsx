@@ -33,13 +33,13 @@ const Hero = () => {
         <div className="max-w-3xl">
         <FadeInSection>
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-      Entreprise de rénovation<br />à Paris
+      Entreprise de rénovation<br />en Ile de France
     </h1>
   </FadeInSection>
 
   <FadeInSection>
     <p className="text-lg md:text-xl text-blue-100 mb-8">
-      Notre entreprise de rénovation à Paris met à votre disposition les
+      Notre entreprise de rénovation en Ile de France met à votre disposition les
       <strong className="text-white"> services</strong> de
       <strong className="text-white"> professionnels</strong> certifiés pour tous vos
       <strong className="text-white"> travaux</strong> de

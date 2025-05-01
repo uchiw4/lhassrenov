@@ -92,7 +92,7 @@ export default function RenovationSalleDeBain() {
 
           <div className="bg-blue-900 text-white text-center py-12 px-4 rounded-xl">
             <h3 className="text-3xl font-bold mb-4">Vous avez un projet ?</h3>
-            <p className="text-lg mb-6">Nous vous accompagnons dans toutes les étapes de votre rénovation de salle de bain à Paris.</p>
+            <p className="text-lg mb-6">Nous vous accompagnons dans toutes les étapes de votre rénovation de salle de bain en Ile de France.</p>
             <Link href="/contact">
               <Button className="bg-white text-blue-900 hover:bg-blue-100 font-semibold text-lg px-6 py-3">
                 Prendre rendez-vous

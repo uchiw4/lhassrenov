@@ -17,12 +17,12 @@ const RenovationAppartement = () => {
           </h1>
 
           <p className="text-lg mb-6">
-            Vous envisagez de rénover votre appartement à Paris ? Découvrez les coûts estimatifs, des conseils pratiques et des exemples de réalisations pour vous guider dans votre projet.
+            Vous envisagez de rénover votre appartement en Ile de France ? Découvrez les coûts estimatifs, des conseils pratiques et des exemples de réalisations pour vous guider dans votre projet.
           </p>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
           <p className="mb-4">
-            Le coût d'une rénovation d'appartement à Paris varie en fonction de l'ampleur des travaux :
+            Le coût d'une rénovation d'appartement en Ile de France varie en fonction de l'ampleur des travaux :
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li><strong>Rafraîchissement léger</strong> : entre 800 € et 1 200 € par m²</li>

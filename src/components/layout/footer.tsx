@@ -23,8 +23,8 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-gray-400 mb-4">
-              EP Servicesest votre entreprise tout corps d'état de rénovation et décoration
-              intérieure à Paris.
+              EP Services est votre entreprise tout corps d'état de rénovation et décoration
+              intérieure en Ile de France.
             </p>
           </div>
 

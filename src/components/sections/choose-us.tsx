@@ -39,14 +39,14 @@ const ChooseUs = () => {
               </Link>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Choisissez la bonne entreprise de rénovation à Paris
+              Choisissez la bonne entreprise de rénovation en Ile de France
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
               La rénovation d'une maison ou d'un appartement est un projet incontournable
               lorsque vous constatez que votre bien s'est défraîchi au fil des années.
               Face aux nouvelles réglementations en vigueur en vue de mieux protéger
               l'environnement et d'améliorer le confort des habitations, vous avez besoin
-              d'une entreprise de rénovation à Paris pour la remise aux normes des
+              d'une entreprise de rénovation en Ile de France pour la remise aux normes des
               installations, mais aussi pour valoriser votre bien immobilier. EP Services
               vous informe et vous conseille à toutes les étapes de votre projet.
             </p>
@@ -84,7 +84,7 @@ const ChooseUs = () => {
               <h4 className="text-lg font-semibold mb-2">Années</h4>
               <p className="text-gray-600">
                 Plus de 10 ans d'expérience dans la rénovation d'appartements
-                et maisons à Paris.
+                et maisons en Ile de France.
               </p>
             </Card>
           </div>
@@ -100,18 +100,18 @@ const ChooseUs = () => {
             </div>
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Une réalisation clé en main pour vos travaux de rénovation à Paris
+                Une réalisation clé en main pour vos travaux de rénovation en Ile de France
               </h3>
               <p className="text-gray-600 mb-6">
                 Si vous souhaitez réaliser des travaux à l'intérieur de votre bien immobilier,
                 choisissez un prestataire qualifié qui veille aussi bien au confort qu'à la
                 qualité esthétique et à l'harmonie visuelle. Grâce aux compétences variées
                 et à l'expertise des techniciens de terrain, votre entreprise de rénovation
-                à Paris peut facilement répondre à tous vos besoins.
+                en Ile de France peut facilement répondre à tous vos besoins.
               </p>
 
               <h4 className="text-xl font-semibold text-gray-900 mb-3">
-                Plusieurs spécialités avec votre entreprise de rénovation à Paris
+                Plusieurs spécialités avec votre entreprise de rénovation en Ile de France
               </h4>
               <p className="text-gray-600 mb-6">
                 Nous mettons à votre disposition des carreleurs, des peintres, des plaquistes,

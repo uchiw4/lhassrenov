@@ -43,10 +43,10 @@ export default function AboutClient({
               EP Services
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Quels sont les atouts de notre entreprise de rénovation à Paris ?
+              Quels sont les atouts de notre entreprise de rénovation en Ile de France ?
             </h1>
             <p className="text-gray-600">
-              Nous sommes des professionnels de la rénovation à Paris. Nos clients nous font
+              Nous sommes des professionnels de la rénovation en Ile de France. Nos clients nous font
               confiance car nous disposons de nombreux atouts, aux services de la qualité de nos
               prestations et de votre satisfaction.
             </p>
@@ -156,7 +156,7 @@ export default function AboutClient({
             <div className="col-span-2">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Notre entreprise</h2>
               <p className="text-gray-600 mb-6">
-                EP Servicesest votre entreprise tout corps d'état de rénovation et décoration intérieure à Paris.
+                EP Services est votre entreprise tout corps d'état de rénovation et décoration intérieure en Ile de France.
                 Avec plusieurs années d'expérience dans le domaine, notre équipe de professionnels qualifiés est
                 à votre disposition pour tous vos projets de rénovation.
               </p>

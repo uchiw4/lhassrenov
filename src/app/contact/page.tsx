@@ -3,7 +3,7 @@ import ContactForm from "@/components/contact-form";
 
 export const metadata = {
   title: "Contact - EP Services",
-  description: "Contactez EP Services votre entreprise de rénovation à Paris pour obtenir un devis gratuit ou des informations sur nos services.",
+  description: "Contactez EP Services votre entreprise de rénovation en Ile de France pour obtenir un devis gratuit ou des informations sur nos services.",
 };
 
 export default function ContactPage() {
@@ -19,7 +19,7 @@ export default function ContactPage() {
               Demandez un devis pour vos travaux de rénovation en région parisienne
             </h1>
             <p className="text-gray-600">
-              La rénovation partielle ou intégrale d'un bien immobilier à Paris est un projet qui ne s'improvise pas.
+              La rénovation partielle ou intégrale d'un bien immobilier en Ile de France est un projet qui ne s'improvise pas.
               Contactez-nous pour discuter de votre projet et obtenir un devis gratuit et personnalisé.
             </p>
           </div>

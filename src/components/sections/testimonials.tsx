@@ -48,7 +48,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Découvrez les retours d'expérience de nos clients satisfaits qui ont fait appel à
-            EP Servicespour leurs projets de rénovation à Paris.
+            EP Servicespour leurs projets de rénovation en Ile de France.
           </p>
         </div>
 

@@ -6,8 +6,8 @@ import Testimonials from "@/components/sections/testimonials";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "EP Services- Entreprise de rénovation à Paris",
-  description: "EP Services votre entreprise de rénovation à Paris. Rénovation appartement, maison, salle de bain, plomberie, électricité, chauffage et climatisation.",
+  title: "EP Services- Entreprise de rénovation en Ile de France",
+  description: "EP Services votre entreprise de rénovation en Ile de France. Rénovation appartement, maison, salle de bain, plomberie, électricité, chauffage et climatisation.",
 };
 
 export default function Home() {

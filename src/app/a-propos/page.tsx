@@ -4,7 +4,7 @@ import AboutClient from "@/components/AboutClient";
 export const metadata: Metadata = {
   title: "À propos - EP Services",
   description:
-    "Découvrez EP Services une entreprise de rénovation à Paris. Notre expertise, nos valeurs et notre équipe professionnelle à votre service.",
+    "Découvrez EP Services une entreprise de rénovation en Ile de France. Notre expertise, nos valeurs et notre équipe professionnelle à votre service.",
 };
 
 const stats = [
@@ -19,7 +19,7 @@ const values = [
     id: 1,
     title: "Réactivité",
     description:
-      "Vos problèmes ne peuvent pas attendre ! Nous intervenons en urgence à votre domicile dans notre zone d'intervention. Nous sommes à votre écoute et prêts à intervenir de façon fiable et réactive ! N'hésitez pas à joindre notre entreprise de rénovation à Paris.",
+      "Vos problèmes ne peuvent pas attendre ! Nous intervenons en urgence à votre domicile dans notre zone d'intervention. Nous sommes à votre écoute et prêts à intervenir de façon fiable et réactive ! N'hésitez pas à joindre notre entreprise de rénovation en Ile de France.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />

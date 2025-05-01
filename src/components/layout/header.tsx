@@ -27,7 +27,7 @@ const Header = () => {
             </Link>
             <div className="hidden md:block text-sm ml-8">
               <p className="text-gray-700">
-                EP Services entreprise de rénovation basée à Paris. Nous intervenons tous
+                EP Services entreprise de rénovation basée en Ile de France. Nous intervenons tous
                 les jours pour vos projets de rénovation, électricité et plomberie.
               </p>
             </div>
@@ -67,13 +67,13 @@ const Header = () => {
     <div className="absolute top-full left-0 w-64 bg-white shadow-lg rounded-md overflow-hidden z-20 opacity-0 group-hover:opacity-100 transition-all duration-200 invisible group-hover:visible">
       <div className="py-2">
         {[
+          { name: "Rénovation Électricité", path: "/services/renovation-electricite" },
+          { name: "Rénovation Plomberie", path: "/services/renovation-plomberie" },
           { name: "Rénovation de salle de bain", path: "/services/renovation-salle-de-bain" },
           { name: "Rénovation appartement", path: "/services/renovation-appartement" },
           { name: "Rénovation maison", path: "/services/renovation-maison" },
           { name: "Rénovation Chauffage et Climatisation", path: "/services/renovation-chauffage-climatisation" },
-          { name: "Rénovation Électricité", path: "/services/renovation-electricite" },
-          { name: "Rénovation Plomberie", path: "/services/renovation-plomberie" },
-          { name: "Installation climatisation à Paris", path: "/services/installation-climatisation" },
+          { name: "Installation climatisation en Ile de France", path: "/services/installation-climatisation" },
         ].map((link) => (
           <Link key={link.path} href={link.path} className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600">
             {link.name}
@@ -112,52 +112,67 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white text-gray-800 px-4 py-4 space-y-2">
-            <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block py-2">Accueil</Link>
-            <Link href="/a-propos" onClick={() => setMobileMenuOpen(false)} className="block py-2">À propos</Link>
-            <details className="py-2">
-              <summary className="cursor-pointer">Nos Services</summary>
-              <div className="pl-4 mt-2 space-y-1">
-                {[
-                  { name: "Rénovation de salle de bain", path: "/services/renovation-salle-de-bain" },
-                  { name: "Rénovation appartement", path: "/services/renovation-appartement" },
-                  { name: "Rénovation maison", path: "/services/renovation-maison" },
-                  { name: "Rénovation Chauffage et Climatisation", path: "/services/renovation-chauffage-climatisation" },
-                  { name: "Rénovation Électricité", path: "/services/renovation-electricite" },
-                  { name: "Rénovation Plomberie", path: "/services/renovation-plomberie" },
-                  { name: "Installation climatisation à Paris", path: "/services/installation-climatisation" },
-                ].map((link) => (
-                  <Link key={link.path} href={link.path} onClick={() => setMobileMenuOpen(false)} className="block text-sm py-1 hover:text-blue-600">
-                    {link.name}
-                  </Link>
-                ))}
-              </div>
-            </details>
+  <div
+    className="md:hidden px-4 py-4 space-y-2 bg-white text-gray-800 rounded-md shadow-lg mx-4 mt-2 transition-all duration-300 ease-in-out transform origin-top animate-slide-down"
+  >
+    <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block py-2">
+      Accueil
+    </Link>
+    <Link href="/a-propos" onClick={() => setMobileMenuOpen(false)} className="block py-2">
+      À propos
+    </Link>
+    <details className="py-2">
+      <summary className="cursor-pointer">Nos Services</summary>
+      <div className="pl-4 mt-2 space-y-1">
+        {[
+          { name: "Rénovation de salle de bain", path: "/services/renovation-salle-de-bain" },
+          { name: "Rénovation appartement", path: "/services/renovation-appartement" },
+          { name: "Rénovation maison", path: "/services/renovation-maison" },
+          { name: "Rénovation Chauffage et Climatisation", path: "/services/renovation-chauffage-climatisation" },
+          { name: "Rénovation Électricité", path: "/services/renovation-electricite" },
+          { name: "Rénovation Plomberie", path: "/services/renovation-plomberie" },
+          { name: "Installation climatisation en Ile de France", path: "/services/installation-climatisation" },
+        ].map((link) => (
+          <Link
+            key={link.path}
+            href={link.path}
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-sm py-1 hover:text-blue-600"
+          >
+            {link.name}
+          </Link>
+        ))}
+      </div>
+    </details>
 
-            {/* Bloc contact mobile */}
-            <div className="mt-4 pt-4 border-t border-gray-200 space-y-3">
-              <div className="flex items-center space-x-2">
-                <MapPin className="h-5 w-5 text-blue-600" />
-                <span className="text-sm">60, rue François 1er, Paris 75008</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Phone className="h-5 w-5 text-blue-600" />
-                <span className="text-sm">07 61 18 90 56</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Clock className="h-5 w-5 text-blue-600" />
-                <span className="text-sm">Lundi – Dimanche / 7h30 – 18h</span>
-              </div>
-            </div>
+    {/* Bloc contact mobile */}
+    <div className="mt-4 pt-4 border-t border-gray-200 space-y-3">
+      <div className="flex items-center space-x-2">
+        <MapPin className="h-5 w-5 text-blue-600" />
+        <span className="text-sm">60, rue François 1er, Paris 75008</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <Phone className="h-5 w-5 text-blue-600" />
+        <span className="text-sm">07 61 18 90 56</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <Clock className="h-5 w-5 text-blue-600" />
+        <span className="text-sm">Lundi – Dimanche / 7h30 – 18h</span>
+      </div>
+    </div>
 
-            {/* Bouton Devis mobile */}
-            <Link href="/contact">
-              <Button variant="default" className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-700">
-                Obtenir un Devis
-              </Button>
-            </Link>
-          </div>
-        )}
+    {/* Bouton Devis mobile */}
+    <Link href="/contact">
+      <Button
+        variant="default"
+        className="w-full mt-4 bg-blue-600 text-white hover:bg-blue-700"
+      >
+        Obtenir un Devis
+      </Button>
+    </Link>
+  </div>
+)}
+
       </nav>
     </header>
   );

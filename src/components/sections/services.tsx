@@ -22,45 +22,45 @@ function FadeInSection({ children }: { children: React.ReactNode }) {
   const services = [
     {
       id: 1,
-      title: "Rénovation Salle de Bain",
-      description: "La rénovation d'une salle de bain à Paris nécessite une bonne préparation pour déterminer les différents types de travaux à réaliser.",
-      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/salledebain.jpeg",
-      link: "/services/renovation-salle-de-bain"
-    },
-    {
-      id: 2,
-      title: "Rénovation Appartement",
-      description: "EP Servicesvous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
-      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/appartement.jpeg",
-      link: "/services/renovation-appartement"
-    },
-    {
-      id: 3,
-      title: "Rénovation Maison",
-      description: "Les travaux de rénovation d'une maison à Paris ne s'improvisent pas. L'intervention d'un expert qualifié est indispensable pour ce genre de projet",
-      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/maison-ancienne-vs-maison-renovee.jpg",
-      link: "/services/renovation-maison"
-    },
-    {
-      id: 4,
-      title: "Rénovation Chauffage et Climatisation",
-      description: "Installation et rénovation de systèmes de chauffage et climatisation sur mesure",
-      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-sol-renovation.jpg",
-      link: "/services/renovation-chauffage-climatisation"
-    },
-    {
-      id: 5,
       title: "Rénovation Électricité",
       description: "Mise aux normes, installation électrique et dépannage par des électriciens qualifiés.",
       image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/travaux-renovation-maison-640x360.jpg",
       link: "/services/renovation-electricite"
     },
     {
-      id: 6,
+      id: 2,
       title: "Rénovation Plomberie",
       description: "Changements de canalisations, réparations et installations sanitaires de qualité.",
       image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/PHOTO-2022-09-07-18-17-50_1.jpg",
       link: "/services/renovation-plomberie"
+    },
+    {
+      id: 3,
+      title: "Rénovation Salle de Bain",
+      description: "La rénovation d'une salle de bain en Ile de France nécessite une bonne préparation pour déterminer les différents types de travaux à réaliser.",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/salledebain.jpeg",
+      link: "/services/renovation-salle-de-bain"
+    },
+    {
+      id: 4,
+      title: "Rénovation Appartement",
+      description: "EP Servicesvous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/appartement.jpeg",
+      link: "/services/renovation-appartement"
+    },
+    {
+      id: 5,
+      title: "Rénovation Maison",
+      description: "Les travaux de rénovation d'une maison en Ile de France ne s'improvisent pas. L'intervention d'un expert qualifié est indispensable pour ce genre de projet",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/maison-ancienne-vs-maison-renovee.jpg",
+      link: "/services/renovation-maison"
+    },
+    {
+      id: 6,
+      title: "Rénovation Chauffage et Climatisation",
+      description: "Installation et rénovation de systèmes de chauffage et climatisation sur mesure",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-sol-renovation.jpg",
+      link: "/services/renovation-chauffage-climatisation"
     }
   ];
 const Services = () => {

@@ -52,6 +52,10 @@ export default function RenovationChauffageClimatisation() {
                   <td className="border px-4 py-2">3 800€ à 6 500€</td>
                 </tr>
                 <tr>
+                  <td className="border px-4 py-2">Pose de climatisation réversible</td>
+                  <td className="border px-4 py-2">1600 à 6 000€</td>
+                </tr>
+                <tr>
                   <td className="border px-4 py-2">Installation d'une pompe à chaleur air-eau</td>
                   <td className="border px-4 py-2">8 000€ à 16 000€</td>
                 </tr>
@@ -80,16 +84,16 @@ export default function RenovationChauffageClimatisation() {
             <li>Entretenez régulièrement vos équipements pour garantir leur efficacité et leur longévité</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4">Exemples de rénovations réalisées par lhassrenov</h2>
+          <h2 className="text-2xl font-semibold mt-10 mb-4">Exemples de rénovations réalisées par EP Services</h2>
           <div className="grid md:grid-cols-3 gap-4 mb-12">
-            <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-clim1.jpeg" alt="Installation de chaudière" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
-            <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-clim2.jpeg" alt="Pose de climatisation réversible" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
-            <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-clim3.jpeg" alt="Système de chauffage moderne" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
+            <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-clim1.png" alt="Installation de chaudière" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
+            <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-clim2.jpg" alt="Pose de climatisation réversible" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
+            <Image src="https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-clim3.jpg" alt="Système de chauffage moderne" width={600} height={400} className="rounded-xl w-full h-auto object-cover" />
           </div>
 
           <div className="bg-blue-900 text-white text-center py-12 px-4 rounded-xl">
             <h3 className="text-3xl font-bold mb-4">Vous avez un projet de rénovation ?</h3>
-            <p className="text-lg mb-6">Notre équipe vous accompagne dans toutes les étapes de la rénovation de votre système de chauffage et de climatisation à Paris.</p>
+            <p className="text-lg mb-6">Notre équipe vous accompagne dans toutes les étapes de la rénovation de votre système de chauffage et de climatisation en Ile de France.</p>
             <Link href="/contact">
               <Button className="bg-white text-blue-900 hover:bg-blue-100 font-semibold text-lg px-6 py-3">
                 Prendre rendez-vous
