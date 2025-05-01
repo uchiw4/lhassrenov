@@ -96,7 +96,7 @@ const Services = () => {
                 <p className="text-gray-600 mb-4">
                   {service.description}
                 </p>
-                <Link href={service.link} className="inline-flex items-center text-red-600 hover:text-red-800">
+                <Link href={service.link} className="inline-flex items-center text-blue-600 hover:text-blue-800">
                   En savoir plus
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
