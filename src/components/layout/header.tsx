@@ -46,7 +46,7 @@ const Header = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="bg-blue-600 py-4 md:py-4">
+      <nav className="bg-red-600 py-4 md:py-4">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-6 text-white">
