@@ -9,10 +9,10 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <Layout>
-      <section className="bg-blue-50 py-20">
+      <section className="bg-red-50 py-20">
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-2">
+            <span className="inline-block px-3 py-1 text-sm font-medium text-red-600 bg-red-100 rounded-full mb-2">
               Contact
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -42,7 +42,7 @@ export default function ContactPage() {
                     title="Téléphone"
                     icon="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     content={
-                      <a href="tel:0651604595" className="hover:text-blue-600 transition-colors">
+                      <a href="tel:0651604595" className="hover:text-red-600 transition-colors">
                         07 61 18 90 56
                       </a>
                     }
@@ -51,7 +51,7 @@ export default function ContactPage() {
                     title="E-mail"
                     icon="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     content={
-                      <a href={`mailto:${"lhassrenov"}@${"gmail.com"}`} className="hover:text-blue-600 transition-colors">
+                      <a href={`mailto:${"lhassrenov"}@${"gmail.com"}`} className="hover:text-red-600 transition-colors">
                         infos.eps.paris@gmail.com
                       </a>
                     }
@@ -85,8 +85,8 @@ function InfoItem({
 }) {
   return (
     <div className="flex items-start">
-      <div className="flex-shrink-0 rounded-full bg-blue-100 p-3 mr-4">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="flex-shrink-0 rounded-full bg-red-100 p-3 mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={icon} />
         </svg>
       </div>

@@ -64,13 +64,13 @@ const RenovationAppartement = () => {
             />
           </div>
 
-          <div className="bg-blue-900 text-white text-center py-12 px-4 rounded-xl">
+          <div className="bg-red-900 text-white text-center py-12 px-4 rounded-xl">
             <h3 className="text-3xl font-bold mb-4">Vous avez un projet ?</h3>
             <p className="text-lg mb-6">
               Notre équipe de professionnels est à votre écoute pour vous accompagner de la conception à la réalisation de vos travaux.
             </p>
             <Link href="/contact">
-              <Button className="bg-white text-blue-900 hover:bg-blue-100 font-semibold text-lg px-6 py-3">
+              <Button className="bg-white text-red-900 hover:bg-red-100 font-semibold text-lg px-6 py-3">
                 Prendre rendez-vous
               </Button>
             </Link>

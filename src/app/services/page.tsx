@@ -75,7 +75,7 @@ const Services = () => {
         <section id="services" className="py-20 bg-gray-50">
           <div className="container mx-auto">
             <div className="text-center mb-12">
-              <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-2">
+              <span className="inline-block px-3 py-1 text-sm font-medium text-red-600 bg-red-100 rounded-full mb-2">
                 Nos Services
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -103,7 +103,7 @@ const Services = () => {
                       <p className="text-gray-600 mb-4">
                         {service.description}
                       </p>
-                      <Link href={service.link} className="inline-flex items-center text-blue-600 hover:text-blue-800">
+                      <Link href={service.link} className="inline-flex items-center text-red-600 hover:text-red-800">
                         En savoir plus
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -115,24 +115,24 @@ const Services = () => {
               ))}
             </div>
 
-            <div className="mt-12 bg-blue-600 rounded-lg p-8 md:p-12 flex flex-col md:flex-row items-center justify-between">
+            <div className="mt-12 bg-red-600 rounded-lg p-8 md:p-12 flex flex-col md:flex-row items-center justify-between">
               <div className="mb-6 md:mb-0 md:mr-8">
                 <h3 className="text-2xl font-bold text-white mb-2">
                   Contactez-nous pour plus d'informations !
                 </h3>
                 <div className="flex items-center mt-4">
-                  <div className="mr-3 rounded-full bg-blue-500 p-2">
+                  <div className="mr-3 rounded-full bg-red-500 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
                   <div>
-                    <span className="block text-blue-200 text-sm">Téléphone</span>
+                    <span className="block text-red-200 text-sm">Téléphone</span>
                     <a href="tel:07
 61
 18
 90
-56" className="text-white font-semibold hover:text-blue-100 transition-colors">
+56" className="text-white font-semibold hover:text-red-100 transition-colors">
                       07 61 18 90 56
                     </a>
                   </div>
@@ -140,7 +140,7 @@ const Services = () => {
               </div>
               <div>
                 <Link href="/contact">
-                  <Button className="w-full md:w-auto bg-white text-blue-600 hover:bg-blue-50">
+                  <Button className="w-full md:w-auto bg-white text-red-600 hover:bg-red-50">
                     Contactez-nous
                   </Button>
                 </Link>

@@ -27,7 +27,7 @@ const Hero = () => {
   style={{ backgroundImage: "url('https://lhassrenov.s3.eu-north-1.amazonaws.com/hero.jpeg')" }}
 ></div>
       {/* Dark Overlay */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-950/90 to-blue-800/80"></div>
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-950/90 to-red-800/80"></div>
       
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl">
@@ -38,7 +38,7 @@ const Hero = () => {
   </FadeInSection>
 
   <FadeInSection>
-    <p className="text-lg md:text-xl text-blue-100 mb-8">
+    <p className="text-lg md:text-xl text-red-100 mb-8">
       Notre entreprise de rénovation en Ile de France met à votre disposition les
       <strong className="text-white"> services</strong> de
       <strong className="text-white"> professionnels</strong> certifiés pour tous vos
