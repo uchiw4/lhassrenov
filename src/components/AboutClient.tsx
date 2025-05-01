@@ -40,7 +40,7 @@ export default function AboutClient({
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-2">
-              LHASSRENOV
+              EP Services
             </span>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Quels sont les atouts de notre entreprise de rénovation à Paris ?
@@ -110,7 +110,7 @@ export default function AboutClient({
       <section className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Les Valeurs d'LHASSRENOV</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Les Valeurs d'EP Services</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -147,7 +147,7 @@ export default function AboutClient({
             <div className="col-span-1">
               <Image
                 src="https://ext.same-assets.com/2610736688/2663493012.jpeg"
-                alt="LHASSRENOV - Notre équipe"
+                alt="EP Services- Notre équipe"
                 width={400}
                 height={400}
                 className="rounded-lg shadow-lg"
@@ -156,7 +156,7 @@ export default function AboutClient({
             <div className="col-span-2">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Notre entreprise</h2>
               <p className="text-gray-600 mb-6">
-                LHASSRENOV est votre entreprise tout corps d'état de rénovation et décoration intérieure à Paris.
+                EP Servicesest votre entreprise tout corps d'état de rénovation et décoration intérieure à Paris.
                 Avec plusieurs années d'expérience dans le domaine, notre équipe de professionnels qualifiés est
                 à votre disposition pour tous vos projets de rénovation.
               </p>

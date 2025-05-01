@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import AboutClient from "@/components/AboutClient";
 
 export const metadata: Metadata = {
-  title: "À propos - LHASSRENOV",
+  title: "À propos - EP Services",
   description:
-    "Découvrez LHASSRENOV, une entreprise de rénovation à Paris. Notre expertise, nos valeurs et notre équipe professionnelle à votre service.",
+    "Découvrez EP Services une entreprise de rénovation à Paris. Notre expertise, nos valeurs et notre équipe professionnelle à votre service.",
 };
 
 const stats = [

@@ -19,37 +19,50 @@ function FadeInSection({ children }: { children: React.ReactNode }) {
     </motion.div>
   );}
 
-const services = [
-  {
-    id: 1,
-    title: "Rénovation de salle de bain à Paris : quels sont les travaux à réaliser?",
-    description: "La rénovation d'une salle de bain à Paris nécessite une bonne préparation pour déterminer les différents types de travaux à réaliser",
-    image: "https://ext.same-assets.com/2610736688/3692703645.jpeg",
-    link: "/services/renovation-salle-de-bain"
-  },
-  {
-    id: 2,
-    title: "Rénovation appartement Paris : des prestations personnalisées pour réussir votre projet",
-    description: "LHASSRENOV vous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions",
-    image: "https://ext.same-assets.com/2610736688/1736803123.jpeg",
-    link: "/services/renovation-appartement"
-  },
-  {
-    id: 3,
-    title: "Rénovation maison Paris : des services clé en main avec LHASSRENOV",
-    description: "Les travaux de rénovation d'une maison à Paris ne s'improvisent pas. L'intervention d'un expert qualifié est indispensable pour ce genre de projet",
-    image: "https://ext.same-assets.com/2610736688/12949919.jpeg",
-    link: "/services/renovation-maison"
-  },
-  {
-    id: 4,
-    title: "Rénovation Plomberie à Paris : Des Experts pour une Installation Fiable et Performante",
-    description: "Nous mettons à votre disposition une équipe d'experts qualifiés qui sauront répondre à vos besoins",
-    image: "https://ext.same-assets.com/2610736688/2982367781.jpeg",
-    link: "/services/renovation-plomberie"
-  }
-];
-
+  const services = [
+    {
+      id: 1,
+      title: "Rénovation Salle de Bain",
+      description: "La rénovation d'une salle de bain à Paris nécessite une bonne préparation pour déterminer les différents types de travaux à réaliser.",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/salledebain.jpeg",
+      link: "/services/renovation-salle-de-bain"
+    },
+    {
+      id: 2,
+      title: "Rénovation Appartement",
+      description: "EP Servicesvous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/appartement.jpeg",
+      link: "/services/renovation-appartement"
+    },
+    {
+      id: 3,
+      title: "Rénovation Maison",
+      description: "Les travaux de rénovation d'une maison à Paris ne s'improvisent pas. L'intervention d'un expert qualifié est indispensable pour ce genre de projet",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/maison-ancienne-vs-maison-renovee.jpg",
+      link: "/services/renovation-maison"
+    },
+    {
+      id: 4,
+      title: "Rénovation Chauffage et Climatisation",
+      description: "Installation et rénovation de systèmes de chauffage et climatisation sur mesure",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/chauffage-sol-renovation.jpg",
+      link: "/services/renovation-chauffage-climatisation"
+    },
+    {
+      id: 5,
+      title: "Rénovation Électricité",
+      description: "Mise aux normes, installation électrique et dépannage par des électriciens qualifiés.",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/travaux-renovation-maison-640x360.jpg",
+      link: "/services/renovation-electricite"
+    },
+    {
+      id: 6,
+      title: "Rénovation Plomberie",
+      description: "Changements de canalisations, réparations et installations sanitaires de qualité.",
+      image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/PHOTO-2022-09-07-18-17-50_1.jpg",
+      link: "/services/renovation-plomberie"
+    }
+  ];
 const Services = () => {
   return (
     <FadeInSection>
@@ -61,7 +74,7 @@ const Services = () => {
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Découvrez nos différents services<br />
-            proposés par LHASSRENOV
+            proposés par EP Services
           </h2>
         </div>
 

@@ -29,8 +29,8 @@ const ChooseUs = () => {
             <div className="flex justify-center mb-6">
               <Link href="/">
                 <Image
-                  src="https://lhassrenov.s3.eu-north-1.amazonaws.com/lhassheder.png"
-                  alt="Logo LHASSRENOV"
+                  src="https://lhassrenov.s3.eu-north-1.amazonaws.com/logoep.png"
+                  alt="Logo lhassrenov"
                   width={180}
                   height={60}
                   className="object-contain"
@@ -47,7 +47,7 @@ const ChooseUs = () => {
               Face aux nouvelles réglementations en vigueur en vue de mieux protéger
               l'environnement et d'améliorer le confort des habitations, vous avez besoin
               d'une entreprise de rénovation à Paris pour la remise aux normes des
-              installations, mais aussi pour valoriser votre bien immobilier. LHASSRENOV
+              installations, mais aussi pour valoriser votre bien immobilier. EP Services
               vous informe et vous conseille à toutes les étapes de votre projet.
             </p>
           </div>
@@ -92,7 +92,7 @@ const ChooseUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="rounded-xl overflow-hidden relative h-[400px]">
               <Image
-                src="https://ext.same-assets.com/2610736688/484915847.jpeg"
+                src="https://lhassrenov.s3.eu-north-1.amazonaws.com/evolution.jpeg"
                 alt="Rénovation intérieure"
                 fill
                 className="object-cover"

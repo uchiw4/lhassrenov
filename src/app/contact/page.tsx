@@ -2,8 +2,8 @@ import Layout from "@/components/layout/layout";
 import ContactForm from "@/components/contact-form";
 
 export const metadata = {
-  title: "Contact - LHASSRENOV",
-  description: "Contactez LHASSRENOV, votre entreprise de rénovation à Paris pour obtenir un devis gratuit ou des informations sur nos services.",
+  title: "Contact - EP Services",
+  description: "Contactez EP Services votre entreprise de rénovation à Paris pour obtenir un devis gratuit ou des informations sur nos services.",
 };
 
 export default function ContactPage() {
@@ -52,7 +52,7 @@ export default function ContactPage() {
                     icon="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     content={
                       <a href={`mailto:${"lhassrenov"}@${"gmail.com"}`} className="hover:text-blue-600 transition-colors">
-                        lhassrenov@gmail.com
+                        epservices@gmail.com
                       </a>
                     }
                   />

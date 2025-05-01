@@ -18,13 +18,13 @@ const testimonials = [
   {
     id: 2,
     name: "Ludo Schreiner",
-    text: "J'ai fais appel à l'entreprise LHASSRENOV pour la rénovation complète de mon appartement je suis ravi du travail réalisé et je vous recommande cette entreprise. La qualité des travaux, la gestion du chantier et les delais ont etaient respectés. Encore merci à vous",
+    text: "J'ai fais appel à l'entreprise EP Servicespour la rénovation complète de mon appartement je suis ravi du travail réalisé et je vous recommande cette entreprise. La qualité des travaux, la gestion du chantier et les delais ont etaient respectés. Encore merci à vous",
     image: "https://ext.same-assets.com/2610736688/466771147.jpeg"
   },
   {
     id: 3,
     name: "Helena Mulliri",
-    text: "Entreprise compétente suite à un dégât des eaux l'entreprise LHASSRENOV a recherché la fuite et réparer et rénover ma salle de bain. Je vous les recommandes sans hésiter",
+    text: "Entreprise compétente suite à un dégât des eaux l'entreprise EP Servicesa recherché la fuite et réparer et rénover ma salle de bain. Je vous les recommandes sans hésiter",
     image: "https://ext.same-assets.com/2610736688/2108088447.jpeg"
   },
   {
@@ -48,7 +48,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Découvrez les retours d'expérience de nos clients satisfaits qui ont fait appel à
-            LHASSRENOV pour leurs projets de rénovation à Paris.
+            EP Servicespour leurs projets de rénovation à Paris.
           </p>
         </div>
 
@@ -93,8 +93,8 @@ const Testimonials = () => {
 
         <div className="mt-16 flex flex-wrap justify-center gap-10 items-center opacity-60">
         <Image
-                  src="https://lhassrenov.s3.eu-north-1.amazonaws.com/lhassheder.png"
-                  alt="Logo LHASSRENOV"
+                  src="https://lhassrenov.s3.eu-north-1.amazonaws.com/logoep.png"
+                  alt="Logo lhassrenov"
                   width={180}
                   height={60}
                   className="object-contain"

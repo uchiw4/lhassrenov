@@ -13,8 +13,8 @@ const Footer = () => {
             <div className="mb-6">
               <Link href="/" className="text-2xl font-bold text-white flex items-center">
               <Image
-                  src="https://lhassrenov.s3.eu-north-1.amazonaws.com/lhassheder.png"
-                  alt="Logo LHASSRENOV"
+                  src="https://lhassrenov.s3.eu-north-1.amazonaws.com/logoep.png"
+                  alt="Logo EP Services"
                   width={180}
                   height={60}
                   className="object-contain"
@@ -23,7 +23,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-gray-400 mb-4">
-              LHASSRENOV est votre entreprise tout corps d'état de rénovation et décoration
+              EP Servicesest votre entreprise tout corps d'état de rénovation et décoration
               intérieure à Paris.
             </p>
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-blue-500"></span>
             </h3>
             <p className="text-gray-400 mb-4">
-              Inscrivez-vous à la newsletter de LHASSRENOV pour un accès à nos dernières promotions !
+              Inscrivez-vous à la newsletter de EP Servicespour un accès à nos dernières promotions !
             </p>
             <div className="flex">
               <Input
@@ -146,7 +146,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} LHASSRENOV
+              © {new Date().getFullYear()} EP Services
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link href="/mentions-legales" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">

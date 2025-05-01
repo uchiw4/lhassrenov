@@ -33,7 +33,7 @@ const services = [
   {
     id: 2,
     title: "Rénovation Appartement",
-    description: "LHASSRENOV vous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
+    description: "EP Servicesvous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
     image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/appartement.jpeg",
     link: "/services/renovation-appartement"
   },
@@ -80,7 +80,7 @@ const Services = () => {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Découvrez nos différents services<br />
-                proposés par LHASSRENOV
+                proposés par lhassrenov
               </h2>
             </div>
 

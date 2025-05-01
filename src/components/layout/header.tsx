@@ -17,8 +17,8 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <Link href="/" className="flex items-center">
               <Image
-                src="https://lhassrenov.s3.eu-north-1.amazonaws.com/lhassheder.png"
-                alt="Logo LHASSRENOV"
+                src="https://lhassrenov.s3.eu-north-1.amazonaws.com/logoep.png"
+                alt="Logo lhassrenov"
                 width={140}
                 height={40}
                 className="object-contain"
@@ -27,7 +27,7 @@ const Header = () => {
             </Link>
             <div className="hidden md:block text-sm ml-8">
               <p className="text-gray-700">
-                LHASSRENOV, entreprise de rénovation basée à Paris. Nous intervenons tous
+                EP Services entreprise de rénovation basée à Paris. Nous intervenons tous
                 les jours pour vos projets de rénovation, électricité et plomberie.
               </p>
             </div>

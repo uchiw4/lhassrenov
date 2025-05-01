@@ -18,9 +18,9 @@ export async function POST(req: Request) {
 
   try {
     await transporter.sendMail({
-      from: `"Formulaire LHASSRENOV" <${email}>`,
+      from: `"Formulaire EP Services" <${email}>`,
       to: process.env.EMAIL_USER,
-      subject: "Nouveau message depuis le site LHASSRENOV",
+      subject: "Nouveau message depuis le site EP Services",
       text: `
 Nouvelle demande de contact :
 
