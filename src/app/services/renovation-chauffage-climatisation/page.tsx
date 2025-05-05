@@ -17,7 +17,9 @@ export default function RenovationChauffageClimatisation() {
           <p className="text-lg mb-6">
             Vous envisagez de rénover votre système de chauffage ou d'installer une climatisation ? Quels sont les coûts à prévoir, les options disponibles et les conseils pour réussir votre projet ? Cette page vous guide pas à pas.
           </p>
+          <div className="flex flex-col md:flex-row md:items-start md:space-x-10 mt-10">
 
+          <div className="md:w-2/3">
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
           <p className="mb-4">
             Le coût d'une rénovation de chauffage ou de climatisation dépend du type de système choisi, de la surface à couvrir et des spécificités de votre logement. Voici quelques estimations :
@@ -27,6 +29,17 @@ export default function RenovationChauffageClimatisation() {
             <li>Installation d'une pompe à chaleur air-eau : entre <strong>8 000€ et 16 000€</strong></li>
             <li>Installation d'une climatisation réversible : entre <strong>2 000€ et 15 000€</strong></li>
           </ul>
+          </div>
+          <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <Image
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovateur.png"
+              alt="Plombier cartoon"
+              width={300}
+              height={300}
+              className="object-contain drop-shadow-md"
+            />
+            </div>
+          </div>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Ce qui influence le coût</h2>
           <ul className="list-disc list-inside space-y-2">

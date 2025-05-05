@@ -17,25 +17,41 @@ export default function RenovationPlomberie() {
           <p className="text-lg mb-6">
             Vous envisagez de rénover la plomberie de votre logement ? Découvrez les informations essentielles pour estimer votre budget, comprendre les travaux nécessaires et planifier efficacement votre projet.
           </p>
+          <div className="flex flex-col md:flex-row md:items-start md:space-x-10 mt-10">
+          {/* Texte à gauche */}
+          <div className="md:w-2/3">
+            <h2 className="text-2xl font-semibold mb-4">Quel budget prévoir ?</h2>
+            <p className="mb-4">
+              Le coût d'une rénovation de plomberie dépend de plusieurs facteurs, notamment l'état de l'installation existante, la superficie du logement et les équipements choisis. Voici quelques estimations :
+            </p>
+            <ul className="list-disc list-inside space-y-2 mb-8">
+              <li>Rénovation partielle : entre <strong>70€ et 150€ / m²</strong></li>
+              <li>Rénovation complète d'une maison de 100 m² : entre <strong>8 000€ et 20 000€</strong></li>
+              <li>Remplacement de canalisations : entre <strong>30€ et 100€ / mètre linéaire</strong></li>
+            </ul>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
-          <p className="mb-4">
-            Le coût d'une rénovation de plomberie dépend de plusieurs facteurs, notamment l'état de l'installation existante, la superficie du logement et les équipements choisis. Voici quelques estimations :
-          </p>
-          <ul className="list-disc list-inside space-y-2">
-            <li>Rénovation partielle : entre <strong>70€ et 150€ / m²</strong></li>
-            <li>Rénovation complète d'une maison de 100 m² : entre <strong>8 000€ et 20 000€</strong></li>
-            <li>Remplacement de canalisations : entre <strong>30€ et 100€ / mètre linéaire</strong></li>
-          </ul>
+          
+          </div>
 
-          <h2 className="text-2xl font-semibold mt-10 mb-4">Ce qui influence le coût</h2>
-          <ul className="list-disc list-inside space-y-2">
-            <li><strong>État de la plomberie existante</strong> : vétusté, conformité aux normes</li>
-            <li><strong>Superficie du logement</strong> : nombre de pièces à desservir</li>
-            <li><strong>Choix des matériaux</strong> : cuivre, PER, multicouche, etc.</li>
-            <li><strong>Complexité du chantier</strong> : accessibilité, nécessité de démolition</li>
-            <li><strong>Tarif horaire du plombier</strong> : entre 40€ et 90€</li>
-          </ul>
+          {/* Image à droite */}
+          <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <Image
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/plombier.png"
+              alt="Plombier cartoon"
+              width={300}
+              height={300}
+              className="object-contain drop-shadow-md"
+            />
+          </div>
+        </div>
+<h2 className="text-2xl font-semibold mb-4">Ce qui influence le coût</h2>
+    <ul className="list-disc list-inside space-y-2">
+      <li><strong>État de la plomberie existante</strong> : vétusté, conformité aux normes</li>
+      <li><strong>Superficie du logement</strong> : nombre de pièces à desservir</li>
+      <li><strong>Choix des matériaux</strong> : cuivre, PER, multicouche, etc.</li>
+      <li><strong>Complexité du chantier</strong> : accessibilité, nécessité de démolition</li>
+      <li><strong>Tarif horaire du plombier</strong> : entre 40€ et 90€</li>
+    </ul>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quelques exemples de prix</h2>
           <div className="overflow-auto">
@@ -97,13 +113,7 @@ export default function RenovationPlomberie() {
             </Link>
           </div>
           <div className="md:w-1/3 mt-10 md:mt-0 flex justify-center items-start">
-      <Image
-        src="https://lhassrenov.s3.eu-north-1.amazonaws.com/plombier.png"
-        alt="Plombier cartoon"
-        width={400}
-        height={400}
-        className="object-contain"
-      />
+     
     </div>
         </section>
       </main>

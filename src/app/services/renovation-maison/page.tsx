@@ -17,7 +17,9 @@ export default function RenovationMaison() {
           <p className="text-lg mb-6">
             Vous envisagez de rénover votre maison en Ile de France ? Quels sont les coûts à prévoir, les étapes clés et les conseils pour réussir votre projet ? Cette page vous guide pas à pas.
           </p>
+          <div className="flex flex-col md:flex-row md:items-start md:space-x-10 mt-10">
 
+          <div className="md:w-2/3">
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
           <p className="mb-4">
             Le coût d'une rénovation de maison dépend de l'ampleur des travaux, de la surface et des matériaux choisis. Voici quelques estimations :
@@ -36,6 +38,17 @@ export default function RenovationMaison() {
             <li><strong>Complexité</strong> des travaux (modification de cloisons, extension…)</li>
             <li><strong>Réglementations</strong> locales et contraintes architecturales</li>
           </ul>
+          </div>
+          <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <Image
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovateur.png"
+              alt="Plombier cartoon"
+              width={300}
+              height={300}
+              className="object-contain drop-shadow-md"
+            />
+          </div>
+          </div>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quelques exemples de prix</h2>
           <div className="overflow-auto">

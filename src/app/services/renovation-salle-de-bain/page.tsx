@@ -17,7 +17,9 @@ export default function RenovationSalleDeBain() {
           <p className="text-lg mb-6">
             Vous vous demandez quel budget prévoir pour la rénovation de votre salle de bain ? Quels sont les travaux possibles et les prix moyens ? Cette page vous guide pour y voir plus clair.
           </p>
+          <div className="flex flex-col md:flex-row md:items-start md:space-x-10 mt-10">
 
+          <div className="md:w-2/3">
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
           <p className="mb-4">
             Le budget dépend fortement de votre projet : rénovation partielle ou complète, choix des matériaux, surface, plomberie, etc. Voici quelques estimations :
@@ -36,7 +38,17 @@ export default function RenovationSalleDeBain() {
             <li><strong>Complexité</strong> du chantier</li>
             <li><strong>Niveau de qualification</strong> des professionnels</li>
           </ul>
-
+          </div>
+          <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <Image
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovateur.png"
+              alt="Plombier cartoon"
+              width={300}
+              height={300}
+              className="object-contain drop-shadow-md"
+            />
+          </div>
+          </div>
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quelques exemples de prix</h2>
           <div className="overflow-auto">
             <table className="min-w-full border text-sm">

@@ -17,6 +17,9 @@ export default function RenovationElectricite() {
           <p className="text-lg mb-6">
             Vous envisagez de rénover l'installation électrique de votre logement ? Découvrez les informations essentielles sur les coûts, les travaux à prévoir et les conseils pour une rénovation réussie.
           </p>
+          <div className="flex flex-col md:flex-row md:items-start md:space-x-10 mt-10">
+
+          <div className="md:w-2/3">
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
           <p className="mb-4">
@@ -28,7 +31,17 @@ export default function RenovationElectricite() {
             <li>Rénovation complète avec chauffage électrique : entre <strong>150€ et 200€ / m²</strong></li>
             <li>Budget moyen pour une maison de 100 m² : <strong>entre 9 000€ et 15 000€</strong></li>
           </ul>
-
+          </div>
+          <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <Image
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/electricien.png"
+              alt="Plombier cartoon"
+              width={300}
+              height={300}
+              className="object-contain drop-shadow-md"
+            />
+            </div>
+          </div>
           <h2 className="text-2xl font-semibold mt-10 mb-4">Ce qui influence le coût</h2>
           <ul className="list-disc list-inside space-y-2">
             <li><strong>Surface</strong> du logement</li>

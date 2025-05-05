@@ -19,6 +19,9 @@ const RenovationAppartement = () => {
           <p className="text-lg mb-6">
             Vous envisagez de rénover votre appartement en Ile de France ? Découvrez les coûts estimatifs, des conseils pratiques et des exemples de réalisations pour vous guider dans votre projet.
           </p>
+          <div className="flex flex-col md:flex-row md:items-start md:space-x-10 mt-10">
+
+          <div className="md:w-2/3">
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Quel budget prévoir ?</h2>
           <p className="mb-4">
@@ -29,6 +32,17 @@ const RenovationAppartement = () => {
             <li><strong>Rénovation complète</strong> : entre 1 500 € et 2 500 € par m²</li>
             <li><strong>Rénovation lourde</strong> : jusqu'à 3 200 € par m²</li>
           </ul>
+          </div>
+          <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
+            <Image
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovateur.png"
+              alt="Plombier cartoon"
+              width={300}
+              height={300}
+              className="object-contain drop-shadow-md"
+            />
+            </div>
+          </div>
 
           <h2 className="text-2xl font-semibold mt-10 mb-4">Conseils pour réussir votre rénovation</h2>
           <ul className="list-disc list-inside space-y-2">
