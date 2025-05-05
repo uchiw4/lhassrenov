@@ -47,7 +47,7 @@ const services = [
   {
     id: 2,
     title: "Rénovation Appartement",
-    description: "EP Servicesvous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
+    description: "EP Services vous conseille et vous guide pour vous aider à réaliser vos projets dans les meilleures conditions.",
     image: "https://lhassrenov.s3.eu-north-1.amazonaws.com/appartement.jpeg",
     link: "/services/renovation-appartement"
   },
