@@ -47,6 +47,9 @@ const Header = () => {
 
       {/* Navigation */}
       <nav className="bg-blue-600 py-4 md:py-4">
+      <div className="text-center text-white text-sm font-semibold tracking-wide py-1">
+    Dépannage - Installation - Travaux Électricité - Plomberie - Appelez Nous
+  </div>
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-6 text-white">
