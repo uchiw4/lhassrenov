@@ -96,6 +96,15 @@ export default function RenovationPlomberie() {
               </Button>
             </Link>
           </div>
+          <div className="md:w-1/3 mt-10 md:mt-0 flex justify-center items-start">
+      <Image
+        src="https://lhassrenov.s3.eu-north-1.amazonaws.com/plombier.png"
+        alt="Plombier cartoon"
+        width={400}
+        height={400}
+        className="object-contain"
+      />
+    </div>
         </section>
       </main>
       <Footer />

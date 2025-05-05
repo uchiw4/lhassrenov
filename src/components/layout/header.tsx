@@ -76,7 +76,6 @@ const Header = () => {
           { name: "Rénovation appartement", path: "/services/renovation-appartement" },
           { name: "Rénovation maison", path: "/services/renovation-maison" },
           { name: "Rénovation Chauffage et Climatisation", path: "/services/renovation-chauffage-climatisation" },
-          { name: "Installation climatisation en Ile de France", path: "/services/installation-climatisation" },
         ].map((link) => (
           <Link key={link.path} href={link.path} className="block px-4 py-2 text-sm text-gray-700 hover:bg-red-50 hover:text-red-600">
             {link.name}
