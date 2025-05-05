@@ -122,7 +122,7 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-red-500"></span>
             </h3>
             <p className="text-gray-400 mb-4">
-              Inscrivez-vous à la newsletter de EP Servicespour un accès à nos dernières promotions !
+              Inscrivez-vous à la newsletter de EP Services pour un accès à nos dernières promotions !
             </p>
             <div className="flex">
               <Input

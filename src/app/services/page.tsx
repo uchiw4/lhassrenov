@@ -80,7 +80,7 @@ const Services = () => {
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Découvrez nos différents services<br />
-                proposés par lhassrenov
+                proposés par EP Services
               </h2>
             </div>
 
