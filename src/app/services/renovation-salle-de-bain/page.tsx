@@ -41,7 +41,7 @@ export default function RenovationSalleDeBain() {
           </div>
           <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
             <Image
-              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/renovateur.png"
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/salleur.png"
               alt="Plombier cartoon"
               width={300}
               height={300}

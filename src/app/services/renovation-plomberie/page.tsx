@@ -36,7 +36,7 @@ export default function RenovationPlomberie() {
           {/* Image à droite */}
           <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
             <Image
-              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/plombier.png"
+              src="https://lhassrenov.s3.eu-north-1.amazonaws.com/plombieur.png"
               alt="Plombier cartoon"
               width={300}
               height={300}
